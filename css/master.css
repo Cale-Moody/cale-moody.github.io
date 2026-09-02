@@ -1,0 +1,38 @@
+#page-container {
+	width: 760px;
+}
+
+#content {
+	margin-right: 20;
+	background: black;
+    color: white;
+}
+
+
+#content h2 {
+	margin: 0;
+	padding: 0;
+    color: white;
+}
+
+#content p {
+	margin: 0;
+	padding: 0;
+    color: white;
+}
+
+h1,h2 {
+	margin: 0;
+	padding: 0;
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+#image1 {
+    border-radius: 8px;
+    max-width: 12%;
+    height: auto;
+}
