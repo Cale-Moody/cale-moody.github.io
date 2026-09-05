@@ -1,38 +1,47 @@
 #page-container {
-	width: 760px;
+	width: 100%;
+	max-width: 720px;
+	margin: 0 auto;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+	background: whitesmoke;
+    color: black;
+	text-align: center;
 }
-
-#content {
-	margin-right: 20;
-	background: black;
-    color: white;
-}
-
 
 #content h2 {
 	margin: 0;
 	padding: 0;
-    color: white;
 }
 
 #content p {
 	margin: 0;
 	padding: 0;
-    color: white;
+}
+
+#sidebar {
+    float: right;
+    width: 250px;
+    background: yellow;
 }
 
 h1,h2 {
 	margin: 0;
 	padding: 0;
-    color: white;
 }
 
-body{
-    background-color: black;
+table {
+	margin: 5px;
+	width: 100%;
+	vertical-align: middle;
+	table-layout: fixed;
 }
 
 #image1 {
-    border-radius: 8px;
     max-width: 12%;
     height: auto;
+}
+
+.banner-image {
+	width: 100%;
 }
