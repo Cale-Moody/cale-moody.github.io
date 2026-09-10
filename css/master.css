@@ -42,6 +42,17 @@ table {
     height: auto;
 }
 
+.project-image {
+	max-width: 50%;
+	height: auto;
+}
+
 .banner-image {
 	width: 100%;
+}
+
+.centered {
+	text-align: justify;
+	margin: 10px;
+	margin-bottom: 10px;
 }
